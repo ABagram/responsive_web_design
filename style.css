@@ -1,0 +1,31 @@
+h2{
+  font-size: 20;
+}
+
+body{
+  font-family: Arial;
+}
+
+.form-label{
+  display: block;
+  margin: 0;
+}
+
+.form-box{
+  display: block;
+  margin: 10;
+  margin-left: 0px;
+}
+
+.col3{
+  display: inline;
+}
+
+.radio-list{
+  display: block;
+}
+
+hr{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
