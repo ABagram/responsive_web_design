@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <h1 id="title">Course Satisfaction Survey</h1>
+  <p id="description">This is a survey conducted to gather ratings and insights on how the course may be improved. We ask for your utmost <strong>honesty</strong> in answering the form.</p>
+  <hr>
+  <body>
+    <h2>Profile</h2>
+      <form id="survey-form">
+      
+      <label class="form-label" id="name-label">Name: 
+        <input class="form-box" type="text" id="name" placeholder="Last Name, First Name, M.I." required></input>
+      </label>
+      
+      <label class="form-label" id="email-label">Email: 
+        <input class="form-box" type="email" id="email" placeholder="sample@gmail.com" required>
+        </input>
+      </label>
+
+      <label class="form-label" id="number-label">Age: 
+        <input class="form-box" id="number" type="number" min="13" max="120" placeholder="13"></input>
+      </label>
+
+      <label class="form-label">What is your current occupation?
+        <select id="dropdown" class="form-box">
+          <option value=''>(select one)</option>
+          <option value='student'>Undergraduate Student</option>
+          <option value='student'>Graduate Student</option>
+          <option value='web-dev'>Web Developer</option>
+          <option value='app-dev'>App Developer</option>
+        </select>
+      </label>
+      <hr>
+      <h2>Satisfaction Survey</h2>
+      <p class="form-label">On a scale of 1-5,  how would you rate your satisfaction on the said course?</p>
+       
+        <label class="form-box">
+          <input name="likert" type="radio" value='5'>5 - Very Satisfied<br>
+        </label>
+
+        <label class="form-box">
+          <input name="likert" type="radio" value='4'>4 - Satisfied<br>
+        </label>
+
+        <label class="form-box">
+          <input name="likert" type="radio" value='3'>3 - Neutral<br>
+        </label>
+
+        <label class="form-box">
+          <input name="likert" type="radio" value='2'>2 - Slightly Satisfied<br>
+        </label>
+
+        <label class="form-box">
+          <input name="likert" type="radio" value='1'>1 - Not Satisfied at All
+        </label>
+
+      </label>
+
+      <p>Which of the modules did you find helpful? <i>(You may select more than 1.)</i></p>
+
+        <label class="form-box"><input class="col3" type="checkbox" value='catapp'>Learn HTML by Building a Cat Photo App</input>
+        </label>
+
+        <label class="form-box"><input class="col3" type="checkbox" value='cafemenu'>Learn Basic CSS by Building a Cafe Menu</input>
+        </label>
+
+        <label class="form-box"><input class="col3" type="checkbox" value='markers'>Learn CSS Colors by Building a Set of Colored Markers</input>
+        </label>
+
+        <label class="form-box"><input class="col3" type="checkbox" value='regform'>Learn HTML Forms by Building a Registration Form</input>
+        </label>
+
+        <hr>
+
+        <p>Additional comments/ suggestions:</p>
+        <textarea placeholder="Type here..." rows="3" cols="50">
+        </textarea>
+
+        <br>
+        <br>
+        
+        <input type="submit" id="submit">
+
+    </form>
+  </body>
+  <link rel="stylesheet" href="styles.css">
+</html>
